@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+.body {
+  font-family: Montserrat;
+  font-style: normal;
+}
+.intro {
+  height: auto;
+  max-width: 840px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 24px;
+}
+.imagen-circular {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+}
+.texto1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #444444;
+}
+.texto2 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #999999;
+  padding-bottom: 10px;
+}
+.link1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #444444;
+}
+
+@media (max-width: 505px) {
+  .intro {
+    height: auto;
+    width: 310px;
+  }
+  .imagen-circular {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+  }
+}
+.container {
+  max-width: 840px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 24px;
+  height: auto;
+  background-color: white;
+}
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+}
+p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #999999;
+}
+.ver-mas {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #444444;
+}
+.proximamente {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #999999;
+}
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #444444;
+}
+
+.p1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #666666;
+}
+.p2 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #666666;
+}
+.p3 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: #999999;
+}
+#icon-grid {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: white;
+}
+
+#album {
+  background-color: white;
+}
+.par1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #444444;
+}
+.par2 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #999999;
+}
+.formulario {
+  max-width: 800px;
+  background-color: #f9f9f9;
+  padding: 24px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-input {
+  max-width: 800px;
+}

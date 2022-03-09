@@ -9,6 +9,7 @@
   margin-right: auto;
   margin-left: auto;
   padding: 24px;
+  padding-top: 100px;
 }
 .imagen-circular {
   border-radius: 50%;
@@ -40,6 +41,7 @@
   .intro {
     height: auto;
     width: 310px;
+    padding-top: 120px;
   }
   .imagen-circular {
     border-radius: 50%;
@@ -139,4 +141,9 @@ input {
 }
 textarea {
   width: 100%;
+}
+#nav-bar{
+  position: fixed;
+  background-color: white;
+  z-index: 100;
 }
